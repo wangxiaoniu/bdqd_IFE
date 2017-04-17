@@ -1,0 +1,38 @@
+@charset"utf-8";
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	padding:0;
+	margin:0;
+	margin-top: 50px;
+}
+ul{
+	width: 100px;
+	background: #eee;
+	list-style: none;
+}
+ul li{
+	height: 30px;
+	line-height: 30px;
+}
+ul li a{
+	display: block;
+	width: 100px;
+	height: 30px;
+	text-decoration: none;
+	color:#999;
+	text-align: center;
+}
+ul li a:hover{
+	color: #fff;
+	background: #ccc;
+}
+#box{
+	width: 500px;
+	height: 500px;
+	background: #ccc;
+	margin:0 auto;
+	position: relative;
+}
