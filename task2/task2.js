@@ -44,10 +44,12 @@ function formValidate(){
 	if( mobileValidate()!=1){
  		alert("手机号格式输入错误，请重新输入！");
  		return false;
- 	}else if( nameValidate()!=1){
+ 	}
+ 	if( nameValidate()!=1){
  		alert("用户名格式输入错误，请重新输入！");
  		return false;
- 	}else{
+ 	}
+ 	if(mobileValidate()=1 && ameValidate()=1){
  		alert('提交成功');
 	}
 	
