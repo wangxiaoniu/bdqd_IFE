@@ -29,6 +29,9 @@ form p input{
 	height: 30px;
 	padding-left: 4px;
 }
+form p label[for="name"]{
+	font-size: 12px;
+}
 #submit{
 	margin-top: 40px;
 	margin-left: 40px;
